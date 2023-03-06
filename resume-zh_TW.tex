@@ -1,0 +1,89 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+% \usepackage{NotoSansTC_external} % Traditional Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+\usepackage{NotoSerifTC_external}
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{你的大名}
+
+\basicInfo{
+  \email{example@example.com} \textperiodcentered\ 
+  \phone{(+886) 09xx-xxx-xxx} \textperiodcentered\ 
+  %\linkedin[gimi65536]{https://www.linkedin.com/in/gimi65536}
+}
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{臺灣大學}}{2019 - 2022}
+\textit{碩士}\ 資訊管理
+\datedsubsection{\textbf{臺灣大學}}{2015 - 2019}
+\textit{學士}\ 資訊管理
+
+\section{\faUsers\ 實習與專案經歷}
+\datedsubsection{\textbf{黑科技公司} 台北}{20xx年x月 - 20xx年x月}
+\role{實習}{經理：高負蟀}
+xxx後端開發
+\begin{itemize}
+  \item 實作ooxx特性
+  \item 背景資源佔用率減少8\%
+  \item ooxx
+\end{itemize}
+
+\datedsubsection{\textbf{Discord女僕機器人}}{2022年9月 - 至今}
+\role{Python, Linux, Docker}{個人專案}
+\begin{onehalfspacing}
+簡易的Discord機器人：https://github.com/gimi65536/HMX-MaidBot
+\begin{itemize}
+  \item 可擴充的小遊戲界面
+  \item 可記名或匿名、可規定票數與時限的投票系統
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{簡單計算機}}{2022年12月 - 至今}
+\role{Python}{個人專案}
+\begin{onehalfspacing}
+簡單可擴充的算術編譯器：https://github.com/gimi65536/SimpleCalculator
+\begin{itemize}
+  \item 容易客製化運算子
+  \item 可配合變數API實現簡單的算術直譯器
+\end{itemize}
+\end{onehalfspacing}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 程式語言：C == Python > C++ > Java
+  \item 平台：Linux
+  \item 開發：xxx
+\end{itemize}
+
+\section{\faHeartO\ 獲獎紀錄}
+\datedline{\textit{第一名}，OOXX比賽}{3000年13月}
+\datedline{其它獎項}{3202年}
+
+\section{\faInfo\ 其它}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 部落格：http://blog.example.com
+  \item GitHub：https://github.com/gimi65536
+  \item 語言：英語 - 中等、日語 - 中等
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
